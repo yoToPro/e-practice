@@ -4,7 +4,7 @@ import { PageNotFoundComponent } from './common-components/page-not-found/page-n
 
 const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+  // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

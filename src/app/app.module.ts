@@ -11,6 +11,8 @@ import { AdminModule } from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
 import { CoursesModule } from './courses/courses.module';
 import { StaticpagesModule } from './staticpages/staticpages.module';
+import { HttpClientModule } from '@angular/common/http';
+import { EmployeeService } from './auth/employee.service';
 
 @NgModule({
   declarations: [
@@ -26,9 +28,12 @@ import { StaticpagesModule } from './staticpages/staticpages.module';
     AdminModule,
     AuthModule,
     CoursesModule,
-    StaticpagesModule
+    StaticpagesModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    EmployeeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

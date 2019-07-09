@@ -1,13 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
 h1 {font-size: 2.4rem;margin-bottom: 30px;}
-.bg-blue {background-color:#ef4545;}
+.bg-blue {background-color:#0d4c86;}
 .navbar-brand img { height:30px; }
 .navbar-dark .navbar-nav .nav-link {color:#fff;}
 .navbar-dark .navbar-nav .active .nav-link {color:#fff;}
 .banner img {width:100%;}
 .blog-box {text-align: center; margin-bottom: 20px;}
-.blog-box h3 { margin:20px 0; font-size:22px; color:#000;}
+.blog-box h3 { margin:20px 0; font-size:22px; color:#0d4c86;}
 .blog-box p { color:#666; }
 .blog-box span, .posted-on span { font-style: italic; color:#000; }
 .blog-box img { width:100%; }
@@ -51,7 +50,7 @@ h1 {font-size: 2.4rem;margin-bottom: 30px;}
 .dash-header {display:flex; justify-content: space-between;}
 .table img { width:80px; }
 
-footer {background-color: #000;color:#fff; padding:20px;}
+footer {background-color: #0b1e2f; color:#fff; padding:20px;}
 
 /* For validation*/
 
